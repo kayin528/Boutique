@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Adjust the background-color Property of Text */
+body{
+    margin: 0;
+    font-family: arial;
+    background: #eee;
+}
+ 
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+   font-family: 'Cormorant Garamond', serif;
+}
+
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+ #main-navigation li.bold{
+  background-color:#b37c57;
+    border-radius: 3px;
+     padding: 1px;
+  }
+
+#lead-banner img{
+    width: 100%;
+}
+
+#about-us{
+  background-color:white
+  
+}
+
+#about-us .structure{
+  padding: 5px;  
+  margin: 1px 10px;
+}
+
+#about-us hr{
+  width: 20%;
+  border: none;
+  background-color: #333;
+  height: 1px;
+  border-radius: 40px;
+background: #aadddd;
+background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
+}
+
+#about-us .intro-header{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.structure , p{
+  letter-spacing: 1px;
+}
+
+.structure, p:nth-of-type(2) {
+  padding-top: 4px
+}
+  
+#shop{
+    margin: 30px 0;
+    text-align: center;
+}
+
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop span.price{
+    font-size: 58px;
+    display: block;
+}
+
+#shop a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 2px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+}
+
+.checked {
+  color: orange;
+}
+
+#shop a.add-to-bag:hover{
+    background: #8f746c;
+    color: #fff;
+}
+
+#footer-banner img{
+    width: 100%;
+}
+
+.center-block {
+color: black;
+text-align: center;
+}
+
+.center-block span:hover{
+    background-color: #60412b;
+}
+
+.heading, h1{
+    text-transform: uppercase;
+}
